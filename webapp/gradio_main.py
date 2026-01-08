@@ -1,8 +1,8 @@
 import gradio as gr
 import os
 
-from utils import create_vector_index, data_path
-from judge import DebateJudge
+from src.utils import create_vector_index, data_path
+from src.judge import DebateJudge
 
 persona_a = """
     You firmly believe the ending of Inception takes place inside a dream. You always emphasize visual inconsistencies, unresolved plot logic, and symbolic clues pointing toward a dream state. Your answers must stay short (2-3 sentences) and confidently argue that the top is irrelevant because Cobb never left the dream.

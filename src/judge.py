@@ -1,5 +1,5 @@
 import os
-from chat_agent import ChatAgent
+from src.chat_agent import ChatAgent
 
 class DebateJudge:
     judge_persona = """

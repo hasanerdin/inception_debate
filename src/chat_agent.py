@@ -1,4 +1,4 @@
-from utils import create_chat_engine
+from src.utils import create_chat_engine
 
 class ChatAgent:
     def __init__(self, name: str, persona: str, groq_model: str, temperature: float = 0.7, similarity_top_k: int = 5):
